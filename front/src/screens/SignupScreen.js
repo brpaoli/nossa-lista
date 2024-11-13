@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import { Text, StyleSheet, Alert, View } from 'react-native';
+import { Alert } from 'react-native';
 import { useTheme } from 'styled-components/native';
-import { InputText } from '../styles/InputText';
-import { LabelText } from '../styles/LabelText';
-import { ButtonContainer } from '../styles/ButtonContainer';
-import { Container } from '../styles/Container';
-import SelectField from '../styles/SelectContainer';
-import { ButtonPrimary, ButtonText } from '../styles/ButtonPrimary';
+import { InputText } from '../components/InputText';
+import { LabelText } from '../components/LabelText';
+import { ButtonContainer } from '../components/ButtonContainer';
+import { Container } from '../components/Container';
+import { ButtonPrimary, ButtonText } from '../components/ButtonPrimary';
 import RNPickerSelect from 'react-native-picker-select';
-import { Title } from '../styles/Title';
-import { FormContainer } from '../styles/FormContainer';
+import { Title } from '../components/Title';
+import { FormContainer } from '../components/FormContainer';
 
 export const SignupScreen = () => {
   // Estados para armazenar os dados do formulário

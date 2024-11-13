@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Animated } from 'react-native';
 import Logo from "../../assets/Logo.svg";
-import { Container } from '../styles/Container';
+import { Container } from '../components/Container';
 const SplashScreen = ({ navigation }) => {
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
@@ -11,7 +11,7 @@ const SplashScreen = ({ navigation }) => {
       duration: 1000,
       useNativeDriver: true,
     }).start(() => {
-      setTimeout(() => navigation.replace('Login'), 2000);
+      setTimeout(() => navigation.replace('Home'), 2000);
     });
   }, [fadeAnim, navigation]);
 

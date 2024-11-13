@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Button, Text, StyleSheet, TextInput, Alert  } from 'react-native';
-import { Container } from '../styles/Container';
-import { Title } from '../styles/Title';
-import { InputText } from '../styles/InputText';
-import { ButtonPrimary, ButtonText } from '../styles/ButtonPrimary';
+import { Text, StyleSheet, TextInput, Alert  } from 'react-native';
+import { Container } from '../components/Container';
+import { Title } from '../components/Title';
+import { InputText } from '../components/InputText';
+import { ButtonPrimary, ButtonText } from '../components/ButtonPrimary';
 import Logo from "../../assets/Logo.svg";
 import { useTheme } from 'styled-components/native';
 
@@ -17,9 +17,8 @@ export const LoginScreen = ({ navigation }) => {
     if (username === '' || password === '') {
       Alert.alert('Erro', 'Por favor, preencha todos os campos');
     } else {
-      // Aqui você pode adicionar a lógica de autenticação
       console.log('Login realizado com sucesso!');
-      navigation.replace('Home'); // Navega para a tela 'Home'
+      navigation.replace('Home');
     }
   };
 
@@ -48,7 +47,7 @@ export const LoginScreen = ({ navigation }) => {
         <Title
           fontSize={theme.size.lg}
           fontWeight={theme.weight.bold}
-          color={theme.colors.gray1}
+          color={theme.colors.dark1}
           marginBottom={theme.spacing.lg}
         >
           Acesse sua conta
