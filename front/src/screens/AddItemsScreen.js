@@ -163,7 +163,6 @@ const AddItemsScreen = ({ route, navigation }) => {
             marginTop={theme.spacing.md}
           >
             Lista: {listName}
-            Id: {listId}
           </Title>
 
           <Text
