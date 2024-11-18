@@ -1,4 +1,7 @@
 {
   "name": "front",
-  "slug": "front"
+  "slug": "front",
+  "expo": {
+    "newArchEnabled": true
+  }
 }

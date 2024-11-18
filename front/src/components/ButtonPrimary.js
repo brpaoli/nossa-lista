@@ -8,6 +8,9 @@ export const ButtonPrimary = styled.TouchableOpacity`
     background-color: ${(props) => props.backgroundColor};
     border-radius: ${(props) => props.borderRadius || '4px'};
     border-color: ${(props) => props.borderColor || '#eaeaea'};
+    align-items: center;
+    align-self: center;
+    margin-bottom: 8px;
 `;
 
 export const ButtonText = styled.Text`

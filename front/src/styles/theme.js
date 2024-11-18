@@ -26,6 +26,8 @@ export const theme = {
     red2: '#f5c8bc',
     red1: '#fff0eb', 
     secondary: '#03dac6',
+    primary: '#d2bef5',
+    white: '#ffffff',
     
   },
   fonts: {
@@ -44,11 +46,11 @@ export const theme = {
     xl: '32px',
     },
   size: {
-    xs: '12px',
-    sm: '16px',
-    md: '20px',
-    lg: '24px',
-    xl: '32px',
-    xxl: '48px',
+    xs: 12,
+    sm: 16,
+    md: 24,
+    lg: 32,
+    xl: 40,
+    xxl: 48,
   },
 };

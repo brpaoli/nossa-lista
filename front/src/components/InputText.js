@@ -5,12 +5,17 @@ export const InputText = styled.TextInput`
     width: 100%;
     max-width: 280px;
     border-style: solid;
-    background-color: #fafafa;
-    border-width: ${(props) => props.borderWidth || '1px'};
-    margin-bottom: ${(props) => props.marginBottom || '8px'};
-    padding-left: ${(props) => props.paddingLeft || '12px'};
+    border-width: 1px;
+    margin-bottom: 8px;
+    padding-left: 12px;
+    font-size: 16px;
+    background-color: ${(props) => props.theme.colors.dark4};
+    border-color: ${(props) => props.theme.colors.dark3};
     font-size: ${(props) => props.fontSize || '16px'};
-    border-color: ${(props) => props.borderColor || '#eaeaea'};
-    font-size: ${(props) => props.fontSize || '16px'};
-    border-radius: ${(props) => props.borderRadius || '4px'};
+    color: ${(props) => props.theme.colors.gray1};
+    border-radius: 4px;
+    ::placeholder {
+        color: #fff;
+        opacity: 1;
+    }
 `;
