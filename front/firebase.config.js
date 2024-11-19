@@ -12,12 +12,7 @@ import { getStorage } from 'firebase/storage';
 // Your web app's Firebase configurations
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyA4jVcBRsKcTYbWYwZZEg3nnxds47lZtrU",
-    authDomain: "nossa-lista-99265.firebaseapp.com",
-    projectId: "nossa-lista-99265",
-    storageBucket: "nossa-lista-99265.firebasestorage.app",
-    messagingSenderId: "848578638090",
-    appId: "1:848578638090:web:198e24687dbb48b922caf3",
+
 };
 
 // Initialize Firebase
